@@ -1,0 +1,508 @@
+@import "tailwindcss";
+
+:root {
+  /* --- Earthy/Organic Palette --- */
+
+  /* Dusty Olive */
+  --color-dusty-olive-50: #f2f4f1;
+  --color-dusty-olive-100: #e4e8e3;
+  --color-dusty-olive-200: #c9d1c7;
+  --color-dusty-olive-300: #aebaab;
+  --color-dusty-olive-400: #94a38f;
+  --color-dusty-olive-500: #798c73;
+  --color-dusty-olive-600: #61705c;
+  --color-dusty-olive-700: #485445;
+  --color-dusty-olive-800: #30382e;
+  --color-dusty-olive-900: #181c17;
+  --color-dusty-olive-950: #111410;
+
+  /* Ebony */
+  --color-ebony-50: #f1f3f2;
+  --color-ebony-100: #e4e7e5;
+  --color-ebony-200: #c9cfca;
+  --color-ebony-300: #aeb7b0;
+  --color-ebony-400: #939f95;
+  --color-ebony-500: #78877b;
+  --color-ebony-600: #606c62;
+  --color-ebony-700: #48514a;
+  --color-ebony-800: #303631;
+  --color-ebony-900: #181b19;
+  --color-ebony-950: #111311;
+
+  /* Taupe */
+  --color-taupe-50: #f4f1f1;
+  --color-taupe-100: #e8e4e3;
+  --color-taupe-200: #d1c9c7;
+  --color-taupe-300: #baadab;
+  --color-taupe-400: #a3928f;
+  --color-taupe-500: #8c7773;
+  --color-taupe-600: #705f5c;
+  --color-taupe-700: #544745;
+  --color-taupe-800: #38302e;
+  --color-taupe-900: #1c1817;
+  --color-taupe-950: #141110;
+
+  /* Rosy Taupe */
+  --color-rosy-taupe-50: #f5f0f0;
+  --color-rosy-taupe-100: #ebe1e0;
+  --color-rosy-taupe-200: #d6c3c2;
+  --color-rosy-taupe-300: #c2a5a3;
+  --color-rosy-taupe-400: #ad8785;
+  --color-rosy-taupe-500: #996966;
+  --color-rosy-taupe-600: #7a5452;
+  --color-rosy-taupe-700: #5c3f3d;
+  --color-rosy-taupe-800: #3d2a29;
+  --color-rosy-taupe-900: #1f1514;
+  --color-rosy-taupe-950: #150f0e;
+
+  /* Alabaster Grey */
+  --color-alabaster-grey-50: #f5f1f0;
+  --color-alabaster-grey-100: #ebe2e0;
+  --color-alabaster-grey-200: #d7c5c1;
+  --color-alabaster-grey-300: #c3a8a2;
+  --color-alabaster-grey-400: #ae8b84;
+  --color-alabaster-grey-500: #9a6f65;
+  --color-alabaster-grey-600: #7b5851;
+  --color-alabaster-grey-700: #5d423c;
+  --color-alabaster-grey-800: #3e2c28;
+  --color-alabaster-grey-900: #1f1614;
+  --color-alabaster-grey-950: #160f0e;
+
+  /* --- Semantic Variables --- */
+
+  --primary: var(--color-dusty-olive-600);
+  --primary-hover: var(--color-dusty-olive-700);
+  --primary-light: var(--color-dusty-olive-50);
+
+  --accent: var(--color-rosy-taupe-500);
+
+  --success: #61705c;
+  /* Dusty Olive 600 */
+  --warning: #a3928f;
+  /* Taupe 400 */
+  --danger: #996966;
+  /* Rosy Taupe 500 */
+
+  /* Text */
+  --text-main: var(--color-ebony-900);
+  --text-muted: var(--color-ebony-500);
+  --text-on-dark: #ffffff;
+
+  /* Backgrounds */
+  --bg-app: var(--color-alabaster-grey-50);
+  --bg-surface: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.6);
+
+  /* Spacing & Radius */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  /* Shadows & Effects */
+  --shadow-sm: 0 2px 4px rgba(48, 56, 46, 0.05);
+  /* Dusty Olive 800 tint */
+  --shadow-glass: 0 8px 32px 0 rgba(48, 56, 46, 0.08);
+  --backdrop: blur(16px);
+
+  /* Transitions */
+  --trans-fast: 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --trans-slight: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --trans-med: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@theme inline {
+  --color-background: var(--bg-app);
+  --color-foreground: var(--text-main);
+
+  /* Dusty Olive Utilities */
+  --color-dusty-olive-50: var(--color-dusty-olive-50);
+  --color-dusty-olive-100: var(--color-dusty-olive-100);
+  --color-dusty-olive-200: var(--color-dusty-olive-200);
+  --color-dusty-olive-300: var(--color-dusty-olive-300);
+  --color-dusty-olive-400: var(--color-dusty-olive-400);
+  --color-dusty-olive-500: var(--color-dusty-olive-500);
+  --color-dusty-olive-600: var(--color-dusty-olive-600);
+  --color-dusty-olive-700: var(--color-dusty-olive-700);
+  --color-dusty-olive-800: var(--color-dusty-olive-800);
+  --color-dusty-olive-900: var(--color-dusty-olive-900);
+  --color-dusty-olive-950: var(--color-dusty-olive-950);
+
+  /* Ebony Utilities */
+  --color-ebony-50: var(--color-ebony-50);
+  --color-ebony-100: var(--color-ebony-100);
+  --color-ebony-200: var(--color-ebony-200);
+  --color-ebony-300: var(--color-ebony-300);
+  --color-ebony-400: var(--color-ebony-400);
+  --color-ebony-500: var(--color-ebony-500);
+  --color-ebony-600: var(--color-ebony-600);
+  --color-ebony-700: var(--color-ebony-700);
+  --color-ebony-800: var(--color-ebony-800);
+  --color-ebony-900: var(--color-ebony-900);
+  --color-ebony-950: var(--color-ebony-950);
+
+  /* Taupe Utilities */
+  --color-taupe-50: var(--color-taupe-50);
+  --color-taupe-100: var(--color-taupe-100);
+  --color-taupe-200: var(--color-taupe-200);
+  --color-taupe-300: var(--color-taupe-300);
+  --color-taupe-400: var(--color-taupe-400);
+  --color-taupe-500: var(--color-taupe-500);
+  --color-taupe-600: var(--color-taupe-600);
+  --color-taupe-700: var(--color-taupe-700);
+  --color-taupe-800: var(--color-taupe-800);
+  --color-taupe-900: var(--color-taupe-900);
+  --color-taupe-950: var(--color-taupe-950);
+
+  /* Rosy Taupe Utilities */
+  --color-rosy-taupe-50: var(--color-rosy-taupe-50);
+  --color-rosy-taupe-100: var(--color-rosy-taupe-100);
+  --color-rosy-taupe-200: var(--color-rosy-taupe-200);
+  --color-rosy-taupe-300: var(--color-rosy-taupe-300);
+  --color-rosy-taupe-400: var(--color-rosy-taupe-400);
+  --color-rosy-taupe-500: var(--color-rosy-taupe-500);
+  --color-rosy-taupe-600: var(--color-rosy-taupe-600);
+  --color-rosy-taupe-700: var(--color-rosy-taupe-700);
+  --color-rosy-taupe-800: var(--color-rosy-taupe-800);
+  --color-rosy-taupe-900: var(--color-rosy-taupe-900);
+  --color-rosy-taupe-950: var(--color-rosy-taupe-950);
+
+  /* Alabaster Grey Utilities */
+  --color-alabaster-grey-50: var(--color-alabaster-grey-50);
+  --color-alabaster-grey-100: var(--color-alabaster-grey-100);
+  --color-alabaster-grey-200: var(--color-alabaster-grey-200);
+  --color-alabaster-grey-300: var(--color-alabaster-grey-300);
+  --color-alabaster-grey-400: var(--color-alabaster-grey-400);
+  --color-alabaster-grey-500: var(--color-alabaster-grey-500);
+  --color-alabaster-grey-600: var(--color-alabaster-grey-600);
+  --color-alabaster-grey-700: var(--color-alabaster-grey-700);
+  --color-alabaster-grey-800: var(--color-alabaster-grey-800);
+  --color-alabaster-grey-900: var(--color-alabaster-grey-900);
+  --color-alabaster-grey-950: var(--color-alabaster-grey-950);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, var(--color-alabaster-grey-50) 0%, var(--color-alabaster-grey-100) 100%);
+  color: var(--text-main);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+/* Glass Cards */
+.card {
+  background: var(--bg-surface);
+  backdrop-filter: var(--backdrop);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-glass);
+  border: 1px solid var(--glass-border);
+  transition: var(--trans-med);
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(31, 38, 135, 0.1);
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-lg);
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(97, 112, 92, 0.25);
+  transition: var(--trans-fast);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(97, 112, 92, 0.35);
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--text-main);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  font-weight: 500;
+  transition: var(--trans-fast);
+}
+
+.btn-secondary:hover {
+  background: var(--color-alabaster-grey-200);
+  transform: translateY(-1px);
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--glass-border);
+}
+
+/* Utility */
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+@keyframes pulse-slow {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ================================
+   PRINT STYLES FOR IEP DOCUMENTS
+   ================================ */
+@media print {
+
+  /* Reset backgrounds for printing */
+  body {
+    background: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Hide non-essential elements */
+  .print-hidden,
+  .no-print,
+  nav,
+  aside,
+  .sidebar,
+  header nav,
+  [data-sidebar],
+  button:not(.print-visible),
+  .btn-primary,
+  .btn-secondary {
+    display: none !important;
+  }
+
+  /* Show print-only elements */
+  .print-only {
+    display: block !important;
+  }
+
+  /* Page setup */
+  @page {
+    margin: 0.6in;
+    size: letter portrait;
+  }
+
+  /* Remove card hover effects and decorations */
+  .card {
+    box-shadow: none !important;
+    border: 1px solid #e2e8f0 !important;
+    backdrop-filter: none !important;
+    background: white !important;
+    transform: none !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .card:hover {
+    transform: none !important;
+  }
+
+  /* Section spacing for print */
+  section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 1rem !important;
+  }
+
+  /* Force page break before major sections */
+  .print-page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  /* Print header styling */
+  .iep-print-header {
+    display: block !important;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 2px solid #1e1b4b;
+    margin-bottom: 1.5rem;
+  }
+
+  .iep-print-header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #1e1b4b;
+  }
+
+  .iep-print-header p {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin: 0.25rem 0 0;
+  }
+
+  /* Header gradient replacement for print */
+  .iep-header-gradient {
+    background: #1e1b4b !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Typography adjustments */
+  h1,
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Links */
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* Tables */
+  table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Signatures section - larger for print */
+  .signature-line {
+    height: 2rem !important;
+    border-bottom: 1px solid #1e1b4b !important;
+  }
+
+  /* Footer */
+  .iep-print-footer {
+    display: block !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #64748b;
+    padding: 0.5rem;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  /* Goal cards - avoid breaks */
+  .goal-card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

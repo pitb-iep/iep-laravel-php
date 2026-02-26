@@ -1,0 +1,76 @@
+SS–001                        Identify and name immediate family members                        
+SS–002                        Recognize extended family and their roles                        
+SS–003                        Recognize community helpers                        
+SS–004                        Understand the role of teachers in school                        
+SS–005                        Understand the role of doctors and nurses                        
+SS–006                        Understand the role of police in community safety                        
+SS–007                        Recognize national symbols (flag, anthem)                        
+SS–008                        Recognize local environments (home, school, mosque)                        
+SS–009                        Learn basic civic manners (please, thank you, sorry)                        
+SS–010                        Recognize importance of helping others                        
+SS–011                        Understand the role of shopkeepers                        
+SS–012                        Understand the role of farmers                        
+SS–013                        Recognize role of drivers and transport workers                        
+SS–014                        Recognize role of cleaners and sweepers                        
+SS–015                        Recognize role of firefighters                        
+SS–016                        Recognize role of postman                        
+SS–017                        Understand importance of respecting elders                        
+SS–018                        Recognize traffic signals and rules                        
+SS–019                        Identify Pakistani          cultural clothing                         
+SS–020                        Identify Pakistani cultural foods                        
+SS–021                        Recognize Pakistani cultural music/dance                        
+SS–022                        Identify important Pakistani landmarks                        
+SS–023                        Recognize Pakistani leaders                        
+SS–024                        Recognize importance of Independence Day                        
+SS–025                        Recognize importance of Pakistan Day                        
+SS–026                        Learn about Eid celebrations                        
+SS–027                        Learn about Ramadan practices                        
+SS–028                        Recognize mosque as worship place                        
+SS–029                        Recognize school rules                        
+SS–030                        Recognize home responsibilities                        
+SS–031                        Learn about seasons in Pakistan                        
+SS–032                        Recognize weather conditions                        
+SS–033                        Learn about rivers and mountains of Pakistan                        
+SS–034                        Recognize animals in community                        
+SS–035                        Recognize importance of water                        
+SS–036                        Recognize importance of food                        
+SS–037                        Recognize importance of clothing                        
+SS–038                        Recognize importance of shelter                        
+SS–039                        Recognize basic rights (education, safety)                        
+SS–040                        Recognize responsibilities at school                        
+SS–041                        Recognize responsibilities at home                        
+SS–042                        Recognize importance of honesty                        
+SS–043                        Recognize importance of cooperation                        
+SS–044                        Recognize importance of friendship                        
+SS–045                        Recognize importance of kindness                        
+SS–046                        Recognize importance of fairness                        
+SS–046                        Recognize importance of fairness                        
+SS–047                        Recognize importance of safety                        
+SS–048                        Recognize importance of rules and laws                        
+SS–049                        Recognize importance of teamwork                        
+SS–050                        Recognize importance of respecting diversity                        
+SS–051                        Recognize importance of national unity                        
+SS–052                        Recognize importance of caring for environment                        
+SS–053                        Recognize importance of recycling                        
+SS–054                        Recognize importance of charity                        
+SS–055                        Recognize importance of cultural traditions                        
+SS–056                        Recognize importance of festivals                        
+SS–057                        Recognize importance of respecting flag                        
+SS–058                        Recognize importance of national anthem                        
+SS–059                        Recognize importance of tolerance                        
+SS–060                        Recognize importance of patience                        
+SS–061                        Recognize importance of gratitude                        
+SS–062                        Recognize importance of responsibility                        
+SS–063                        Recognize importance of rights                        
+SS–064                        Recognize importance of citizenship                        
+SS–065                        Recognize importance of national heroes                        
+SS–066                        Recognize importance of respect for religion                        
+SS–067                        Recognize importance of community service                        
+SS–068                        Recognize importance of cultural harmony                        
+SS–069                        Recognize importance of honesty in community                        
+SS–070                        Recognize importance of helping neighbors                        
+SS–071                        Recognize importance of respecting property                        
+SS–072                        Recognize importance of sharing                        
+SS–073                        Recognize importance of cooperation in sports                        
+SS–074                        Recognize importance of respecting teachers                        
+SS–075                        Recognize importance of respecting parents                        
